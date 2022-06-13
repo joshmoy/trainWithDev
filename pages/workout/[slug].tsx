@@ -39,7 +39,7 @@ const WorkoutDetails = ({ workoutData }) => {
     reference: new Date().getTime().toString(),
     email: email,
     // amount: workoutData?.price * 100,
-    amount: 10000,
+    amount: 100000,
     publicKey: NEXT_PUBLIC_PAYSTACK_API_KEY,
     currency: 'NGN',
     channels: ['card', 'ussd', 'bank_transfer'],

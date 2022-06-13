@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-ignore
+// @ts-nocheck
+
 import {
   Box,
   Flex,

@@ -1,5 +1,5 @@
 import React, { ReactChild } from 'react'
-import { Box, Button, Text, Flex } from '@chakra-ui/react'
+import { Box, Text, Flex } from '@chakra-ui/react'
 import Head from 'next/head'
 import Link from 'next/link'
 

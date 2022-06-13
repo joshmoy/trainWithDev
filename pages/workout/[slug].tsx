@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-ignore
+// @ts-nocheck
+
 import {
   Box,
   Flex,
@@ -34,7 +38,8 @@ const WorkoutDetails = ({ workoutData }) => {
   const config = {
     reference: new Date().getTime().toString(),
     email: email,
-    amount: workoutData?.price * 100,
+    // amount: workoutData?.price * 100,
+    amount: 100000,
     publicKey: NEXT_PUBLIC_PAYSTACK_API_KEY,
     currency: 'NGN',
     channels: ['card', 'ussd', 'bank_transfer'],

@@ -38,8 +38,7 @@ const WorkoutDetails = ({ workoutData }) => {
   const config = {
     reference: new Date().getTime().toString(),
     email: email,
-    // amount: workoutData?.price * 100,
-    amount: 100000,
+    amount: workoutData?.price * 100,
     publicKey: NEXT_PUBLIC_PAYSTACK_API_KEY,
     currency: 'NGN',
     channels: ['card', 'ussd', 'bank_transfer'],
@@ -68,6 +67,7 @@ const WorkoutDetails = ({ workoutData }) => {
         name,
         email,
         phone,
+        plan: 'Workout plan',
         message: `You have successfully subscribed to the ${workoutData?.name} plan`,
         reply_to: 'instructorsavage@gmail.com'
       }

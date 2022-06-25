@@ -22,7 +22,7 @@ const Footer: FC<Props> = () => {
                 Instagram
               </Text>
             </Link>
-            <Link href="https://api.whatsapp.com/send?phone=2347064317387">
+            <Link href="https://wa.me/2347064317387?text=Hi+Instructor+Savage%2C%0D%0A%0D%0AI%27m+from+your+website+and+i%27d+like+to+know+more+about+your+services">
               <Text color="brand.gray" cursor="pointer">
                 Whatsapp
               </Text>

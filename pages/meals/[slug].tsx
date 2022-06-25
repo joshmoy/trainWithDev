@@ -67,6 +67,7 @@ const WorkoutDetails = ({ mealsData }) => {
         name,
         email,
         phone,
+        plan: 'Meal plan',
         message: `You have successfully subscribed to the ${mealsData?.name} plan`,
         reply_to: 'instructorsavage@gmail.com'
       }
